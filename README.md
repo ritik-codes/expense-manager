@@ -7,6 +7,7 @@
 ![Render](https://img.shields.io/badge/Deployment-Render-46E3B7.svg?logo=render)
 ![Docker](https://img.shields.io/badge/Container-Docker-2496ED.svg?logo=docker)
 ![OpenAPI / Swagger](https://img.shields.io/badge/API%20Docs-Swagger%20UI-85EA2D.svg?logo=swagger)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 A modular, enterprise-grade RESTful backend system built with Java 17 and Spring Boot 3 to streamline corporate expense claims, departmental budget limits, and hierarchical manager approvals. The application is containerized with Docker, deployed continuously to Render, and persists relational data on TiDB Cloud Serverless (MySQL-compatible).
 
@@ -149,3 +150,8 @@ docker run -p 8080:8080 \
   -e DB_PASSWORD="<your-password>" \
   expense-manager-api
 ```
+
+---
+
+### License
+This project is licensed under the MIT License.
